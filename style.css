@@ -1,51 +1,73 @@
-            img{
-                border-radius: 25% 0 ;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            body{
-                background-color: rgb(209, 209, 209);
-                font-family: 'Montserrat';
-                color: #222222;
-            }
-            .main{
-                margin: 30px;
-                background-color: rgb(238, 238, 238);
-                border-radius: 3%;
-                padding: 5%;
-            }
-            .heroSet{
-                font-size: 3em;
-                text-align: center;
-            }
-            hr{
-                margin: 10px 45px 60px 45px
-            }
-            .dontDecoration{
-                text-decoration: none;
-                color: #11a36a;
-                font-weight: 600;
-                font-size: large;
-            }
-            div a:hover {
-                color: #095f3e;
-            }
-            .myTitle{
-                margin-bottom: 0px;
-            }
-            .footerLine{
-                margin-top: 3%;
-                margin-bottom: 0;
-            }
-            .footerLinks{
-                text-align: center;
-                margin: 10px ;                
-            }
-            .marginLinks{
-                margin: 30px;
-            }
-            li{
-                list-style-type: square;
-                margin: 10px;
-            }
+img{
+    border-radius: 25% 0 ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: rgb(209, 209, 209);
+    font-family: 'Montserrat';
+    color: #222222;
+}
+.main{
+    margin: 30px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 3%;
+    padding: 5%;
+}
+.heroSet{
+    font-size: 3em;
+    text-align: center;
+}
+hr{
+    margin: 30px;
+}
+.dontDecoration{
+    text-decoration: none;
+    color: #11a36a;
+    font-weight: 600;
+    font-size: xx-large;
+}
+div a:hover {
+    color: #095f3e;
+}
+.footerLine{
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+.footerLinks{
+    display: flex;   
+    justify-content: space-evenly;  
+    margin: 10px 200px;  
+}
+.footerLinks .dontDecoration {
+    font-size: x-large;
+}
+
+ul {
+    list-style-image: url("icons/bug.svg");
+}
+#bike {
+    list-style-image: url('icons/bicycle.svg');
+}
+#guitar {
+    list-style-image: url('icons/music-note-beamed.svg');
+}
+#controller {
+    list-style-image: url('icons/controller.svg');
+}
+#movies {
+    list-style-image: url('icons/film.svg');
+}
+#cat {
+    list-style-image: url('icons/github.svg');
+}
+#podcast {
+    list-style-image: url('icons/mic.svg');
+}
+#book {
+    list-style-image: url('icons/book.svg');
+}
+#threeD {
+    list-style-image: url('icons/pencil-square.svg');
+}
